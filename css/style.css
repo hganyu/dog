@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	position: fixed;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	padding: 10px 10%;
+	background: rgb(255,255,255,0.3);
+}
+.logo h1{
+	color: navajowhite;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+.nav a{
+	text-decoration: none;
+	color: burlywood;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%
+}
+.title{
+	display: flex;/**弹性布局**/
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+.title h3{
+	font-size: 38px;
+	color: burlywood;
+	letter-spacing: 5px;
+	margin: 0 20px;
+	}
+.title .line{
+	width: 100px;
+	height: 2px;
+	background-color: black;
+}
+
+/**小狗说**/
+#say {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 30px auto;
+}
+.say-img{
+	width: 45%;
+}
+.say-img img{
+	width: 80%;
+	height: 100%;
+	object-fit: cover;
+}
+.say-text{
+	width: 80%
+}
+.say-text p{
+	line-height: 1.8;
+}
+
+#work ul{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin: 30px auto;
+}
+#work ul li{
+	list-style: none;
+	width: 24%;
+}
+#work ul li img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+#work ul li p{
+	padding: 8px;
+	background: beige;
+	font-weight: bold;
+	color: peru
+	
+}
+
+#like{
+	width: 1000px;
+	margin: 80px auto;
+}
+.like-img{
+	width: 100%;
+	margin: -80px 500px;
+}
+.like-img img{
+	width: 30%;
+	height: 60%;
+	object-fit: cover;
+}
+#like span{
+	background: lavender;
+	padding: 5px 10px;
+	border-radius: 3px;
+	
+}
+#like span:first-child{
+	background: lightblue;
+	color: #FFF;
+}
+#like span:nth-child(3){
+	color: #FFF;
+	background:burlywood;
+}
+#like span:nth-child(5){
+	color: #FFF;
+	background: pink;
+}
+#diary{
+	width: 1000px;
+	margin: 80px auto;
+}
+.call{
+	width: 1200px;
+	margin: 60px auto;
+}
+.call input{
+	display: block;
+	width: 200px;
+	height: 35px;
+	padding-left: 100px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.call textarea{
+	padding: 100px;
+	width: 1200px;
+}
+
+.call button{
+	cursor: pointer;
+	display: block;
+    width: 120px;
+	height: 40px;
+	margin-top: 30px;
+	font-size: 16px;
+	color: #FFF;
+	background: rosybrown;
+	border: none;
+	}
+	
+.footer{
+	text-align: center;
+	color: burl111111111111111111111111111ywood;
+	background: blanchedalmond;
+	padding: 10px;
+}
+	
